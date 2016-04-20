@@ -7,8 +7,6 @@ Board made in Eagle, PDF file of the schematic is supplied in the repo, direct l
 
 ![board top](https://raw.githubusercontent.com/epukaza/YoButton-hardware/master/renders/board_top.jpg)
 
-![board bottom](https://raw.githubusercontent.com/epukaza/YoButton-hardware/master/renders/board_bottom.jpg)
-
 # Renders:
 
 ![](https://raw.githubusercontent.com/epukaza/YoButton-hardware/master/renders/naked%20button.jpg)
