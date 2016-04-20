@@ -1,0 +1,10 @@
+#Eagle backup files
+*.s#?
+*.b#?
+*.l#?
+
+#Contains personal info
+eagle.epf
+
+#lock file
+*.lck

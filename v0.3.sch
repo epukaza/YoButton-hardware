@@ -1813,7 +1813,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>&lt;b&gt;Lithium Batteries and NC Accus&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="AB9V">
+<package name="LI3V7">
 <description>&lt;B&gt;9-V BATTERY CLIP&lt;/B&gt;</description>
 <wire x1="-2.54" y1="-3.175" x2="-2.54" y2="-1.905" width="0.254" layer="21"/>
 <wire x1="-2.54" y1="1.905" x2="-2.54" y2="3.175" width="0.254" layer="21"/>
@@ -1829,49 +1829,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="0" y="-2.54" radius="1.27" width="0.1524" layer="51"/>
 <pad name="-" x="0" y="-2.54" drill="1.1176" diameter="3.1496" shape="octagon"/>
 <pad name="+" x="0" y="2.54" drill="1.1176" diameter="3.1496" shape="octagon"/>
-<text x="-1.905" y="-1.143" size="1.27" layer="21" ratio="16" rot="R90">9V</text>
 <text x="-3.81" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="9V0-BL">
-<wire x1="-6.985" y1="0.635" x2="-6.985" y2="0" width="0.4064" layer="94"/>
-<wire x1="-8.89" y1="0" x2="-6.985" y2="0" width="0.1524" layer="94"/>
-<wire x1="-6.985" y1="0" x2="-6.985" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="-5.715" y1="2.54" x2="-5.715" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-4.445" y1="0.635" x2="-4.445" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="6.985" y1="2.54" x2="6.985" y2="0" width="0.4064" layer="94"/>
-<wire x1="6.985" y1="0" x2="8.255" y2="0" width="0.1524" layer="94"/>
-<wire x1="6.985" y1="0" x2="6.985" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-1.905" y1="0.635" x2="-1.905" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="2.54" x2="-0.635" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="1.905" y1="2.54" x2="1.905" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="3.175" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="4.445" y1="2.54" x2="4.445" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="5.715" y1="0.635" x2="5.715" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="9.525" y1="0.635" x2="9.525" y2="-0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-9.525" y1="0.635" x2="-9.525" y2="-0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="8.255" y1="0" x2="8.89" y2="0" width="0.6096" layer="94"/>
-<wire x1="-10.16" y1="0" x2="-10.795" y2="0" width="0.6096" layer="94"/>
-<text x="-5.715" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.715" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="7.62" y="0.635" size="1.524" layer="94">+</text>
-<text x="-8.255" y="0.635" size="1.524" layer="94">-</text>
-<pin name="+" x="12.7" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-12.7" y="0" visible="pad" length="short" direction="pas"/>
+<symbol name="1V2">
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AB9V" prefix="G">
-<description>&lt;B&gt;9-V BATTERY CLIP&lt;/B&gt;</description>
+<deviceset name="LI3V7">
 <gates>
-<gate name="G$1" symbol="9V0-BL" x="0" y="0"/>
+<gate name="G$1" symbol="1V2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="AB9V">
+<device name="" package="LI3V7">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -8007,7 +7989,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
-<part name="G1" library="battery" deviceset="AB9V" device=""/>
+<part name="G1" library="battery" deviceset="LI3V7" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="68"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="68"/>
@@ -8071,8 +8053,8 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <instance part="GND6" gate="1" x="55.88" y="-20.32"/>
 <instance part="SUPPLY4" gate="G$1" x="-45.72" y="38.1"/>
 <instance part="SUPPLY5" gate="G$1" x="-91.44" y="15.24"/>
-<instance part="G1" gate="G$1" x="-7.62" y="-5.08" rot="R90"/>
-<instance part="GND7" gate="1" x="-2.54" y="-25.4"/>
+<instance part="G1" gate="G$1" x="-7.62" y="5.08" rot="R90"/>
+<instance part="GND7" gate="1" x="2.54" y="-5.08"/>
 <instance part="R1" gate="G$1" x="-43.18" y="30.48"/>
 <instance part="R2" gate="G$1" x="-38.1" y="35.56"/>
 <instance part="R3" gate="G$1" x="-30.48" y="43.18" rot="R90"/>
@@ -8177,12 +8159,11 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <segment>
 <pinref part="G1" gate="G$1" pin="-"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-2.54" y1="-22.86" x2="-2.54" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-17.78" x2="-7.62" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="-2.54" y="-17.78"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="0" x2="-7.62" y2="0" width="0.1524" layer="91"/>
+<junction x="2.54" y="0"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="-17.78" x2="2.54" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -8382,7 +8363,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <wire x1="-7.62" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-7.62" y="12.7"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
