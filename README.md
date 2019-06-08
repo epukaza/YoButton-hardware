@@ -1,5 +1,5 @@
 ## YoButton hardware
-Hardware for the Yo button, including primitive plastic model, uses an an ESP8266 to handle the Wi-Fi, and and MSP430 to handle USB negotiation for 500 ma charging and power to enable long standby times. Code for the ESP and MSP uC's is currently private
+Hardware for the Yo button, including primitive plastic model, uses an ESP8266 to handle the Wi-Fi, and and MSP430 to handle USB negotiation for 500 ma charging and power to enable long standby times. Code for the ESP and MSP uC's is currently private
 
 Board made in Eagle, PDF file of the schematic is supplied in the repo, direct link [here](https://github.com/epukaza/YoButton-hardware/raw/master/schematic.pdf)
 
